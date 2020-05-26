@@ -80,7 +80,17 @@
   </section>
   <section>
     <h2>Поиск гостиниц в Седоне</h2>
-    <!-- Здесь будет форма фильтра-->
+    <form action="https://echo.htmlacademy.ru" method="get">
+      <label for="arrival">Дата заезда</label>
+      <input type="date" id="arrival" name="arrival">
+      <label for="departure">Дата выезда</label>
+      <input type="date" id="departure" name="departure">
+      <label for="adult ">Взрослые</label>
+      <input type="number" id="adult " name="number" min="0" step="1">
+      <label for="child ">Дети</label>
+      <input type="number" id="child " min="0" step="1">
+      <button type="submit">Найти</button>
+    </form>
   </section>
   <img src="img/map.png" width="1199" height="594" alt="Схема проезда.">
 </main>
