@@ -1,10 +1,11 @@
 :root {
   --white: #FFFFFF;
-  --grey:#888888;
-  --blue:#81B3D2;
-  --brown:#766357;
-  --black:#000000;
+  --grey: #888888;
+  --blue: #81B3D2;
+  --brown: #766357;
+  --black: #000000;
 }
+
 body {
   min-width: 1220px;
   margin: 0;
