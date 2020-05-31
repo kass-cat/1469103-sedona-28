@@ -83,7 +83,6 @@ img {
   width: 1200px;
   height: 509px;
 }
-
 .cause-list {
   list-style: none;
 }
@@ -155,7 +154,7 @@ color:var(--middle-blue)
 /*Catalog*/
 .visually-hidden
 {
-
+visibility: hidden;
 }
 .hotel-items {
   list-style: none;
@@ -235,4 +234,9 @@ color:var(--middle-blue)
 
 .item-list-hotels:active {
   color: var(--black);
+}
+/*Search*/
+.search
+{
+  display: none;
 }
