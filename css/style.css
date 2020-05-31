@@ -49,6 +49,7 @@ img {
 
 .site-nav {
   list-style: none;
+  text-align: center;
 }
 
 /* User navigation */
@@ -72,6 +73,7 @@ img {
 .main-tit {
   font-size: 21px;
   line-height: 26px;
+  text-align: center;
 }
 
 /*main*/
@@ -93,6 +95,19 @@ img {
 .cause h2 {
   color: var(--brown-exstra-dark);
   font-weight: normal;
+  text-align: center;
+}
+.interest {
+  font-size: 30px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.travel-dates {
+  color: var(--brown-exstra-dark);
+  font-weight: normal;
+  line-height: 24px;
+  text-align: center;
 }
 
 /*Footer*/
@@ -105,6 +120,7 @@ img {
   font-size: 21px;
   line-height: 26px;
   color: var(--black);
+  text-align: center;
 }
 
 .social-link a {
@@ -120,17 +136,7 @@ img {
   font-size: 14px;
   line-height: 26px;
   font-weight: normal;
-}
-
-.interest {
-  font-size: 30px;
-  line-height: 24px;
-}
-
-.travel-dates {
-  color: var(--brown-exstra-dark);
-  font-weight: normal;
-  line-height: 24px;
+  text-align: center;
 }
 
 /*User link-footer
@@ -147,6 +153,10 @@ color:var(--middle-blue)
 }
 */
 /*Catalog*/
+.visually-hidden
+{
+
+}
 .hotel-items {
   list-style: none;
 }
@@ -178,7 +188,7 @@ color:var(--middle-blue)
   line-height: 21px;
   width: 110px;
   height: 27px;
-
+  text-align: center;
 }
 
 .detail div {
