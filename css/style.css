@@ -1,23 +1,229 @@
+/* Variables */
 :root {
   --white: #FFFFFF;
+  --light-grey: #F2F2F2;
   --grey: #888888;
+  --brown-grey: #666666;
   --blue: #81B3D2;
+  --blue-middle: #669EC0;
+  --blue-exstra-dark: #5496BD;
   --brown: #766357;
+  --brown-middle: #604E43;
+  --brown-dark: #503E33;
+  --brown-exstra-dark: #333333;
   --black: #000000;
 }
 
+/* Global */
 body {
   min-width: 1220px;
   margin: 0;
   padding: 0;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 26px;
   font-weight: 700;
-  color: var(--basic-white);
+  color: var(--black);
   text-transform: uppercase;
-  background-color: var(--basic-black);
-  background-image: url("../img/bg.jpg");
+  background-color: var(--white);
   background-position: top center;
   background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main navigation */
+.main-nav-container {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--black);
+  background-color: transparent;
+}
+
+.site-nav {
+  list-style: none;
+}
+
+/* User navigation */
+.site-nav a {
+  color: var(--black);
+}
+
+.site-nav a:focus,
+.site-nav a:hover {
+  color: var(--blue);
+}
+
+.site-nav a:active {
+  color: var(--black);
+}
+
+.site-nav a:not([href]) {
+  color: var(--brown);
+}
+
+.main-tit {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+/*main*/
+.image {
+  background-image: url("background-welcome.jpg");
+  width: 1200px;
+  height: 509px;
+}
+
+.cause-list {
+  list-style: none;
+}
+
+.site-nav {
+  list-style: none;
+}
+
+.cause h2 {
+  color: var(--brown-exstra-dark);
+  font-weight: normal;
+}
+
+/*Footer*/
+.social-link {
+  list-style: none;
+}
+
+.hashtag,
+.tel {
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--black);
+}
+
+.social-link a {
+  color: var(--black);
+}
+
+.img-logo a {
+  color: var(--black)
+}
+
+.website {
+  color: var(--black);
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+.interest {
+  font-size: 30px;
+  line-height: 24px;
+}
+
+.travel-dates {
+  color: var(--brown-exstra-dark);
+  font-weight: normal;
+  line-height: 24px;
+}
+
+/*User link-footer
+
+.social span:hover,
+.social span:focus,
+.tel a:focus
+{
+color:var(--middle-blue)
+}
+.social span:active,
+{
+  color:var(--exstra-dark-blue)
+}
+*/
+/*Catalog*/
+.hotel-items {
+  list-style: none;
+}
+
+.hotel-items a {
+  color: var(--black);
+  font-size: 21px;
+}
+
+.catalog-category,
+.catalog-price {
+  font-weight: normal;
+  line-height: 21px;
+  color: var(--brown-exstra-dark);
+}
+
+.button {
+  color: var(--white);
+  font-size: 14px;
+  line-height: 21px;
+  width: 110px;
+  height: 27px;
+}
+
+.rating {
+  color: var(--brown-grey);
+  background-color: var(--light-grey);
+  font-size: 14px;
+  line-height: 21px;
+  width: 110px;
+  height: 27px;
+
+}
+
+.detail div {
+  background-color: var(--blue);
+}
+
+.book div {
+  background-color: var(--brown);
+
+}
+.item-list-hotels
+{
+ color: var(--black);
+  font-size: 21px;
+  line-height: 26px;
+}
+
+/*User link class button*/
+
+.detail div:focus,
+.detail div:hover
+{
+  background-color: var(--blue-middle);
+}
+
+.book div:focus,
+.book div:hover
+{
+  background-color: var(--brown-middle);
+}
+
+.detail div:active {
+  background-color: var(--blue-exstra-dark);
+}
+
+.book div:active {
+  background-color: var(--brown-dark);
+}
+/*User link */
+
+.item-list-hotels:hover,
+.item-list-hotels:focus
+{
+  color: var(--blue);
+}
+.item-list-hotels:active
+{
+  color: var(--black);
 }
