@@ -77,6 +77,7 @@ img {
 /*main*/
 .image {
   background-image: url("background-welcome.jpg");
+  background-color: var(--black);
   width: 1200px;
   height: 509px;
 }
@@ -188,9 +189,9 @@ color:var(--middle-blue)
   background-color: var(--brown);
 
 }
-.item-list-hotels
-{
- color: var(--black);
+
+.item-list-hotels {
+  color: var(--black);
   font-size: 21px;
   line-height: 26px;
 }
@@ -198,14 +199,12 @@ color:var(--middle-blue)
 /*User link class button*/
 
 .detail div:focus,
-.detail div:hover
-{
+.detail div:hover {
   background-color: var(--blue-middle);
 }
 
 .book div:focus,
-.book div:hover
-{
+.book div:hover {
   background-color: var(--brown-middle);
 }
 
@@ -216,14 +215,14 @@ color:var(--middle-blue)
 .book div:active {
   background-color: var(--brown-dark);
 }
+
 /*User link */
 
 .item-list-hotels:hover,
-.item-list-hotels:focus
-{
+.item-list-hotels:focus {
   color: var(--blue);
 }
-.item-list-hotels:active
-{
+
+.item-list-hotels:active {
   color: var(--black);
 }
