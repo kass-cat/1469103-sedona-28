@@ -16,18 +16,16 @@
 
 /* Global */
 body {
-  min-width: 1220px;
+  min-width: 1200px;
   margin: 0;
   padding: 0;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
-  line-height: 26px;
-  font-weight: 700;
+  line-height: 21px;
+  font-weight: normal;
   color: var(--black);
   text-transform: uppercase;
   background-color: var(--white);
-  background-position: top center;
-  background-repeat: no-repeat;
 }
 
 a {
@@ -41,10 +39,8 @@ img {
 
 /* Main navigation */
 .main-nav-container {
-  font-size: 16px;
   line-height: 26px;
   color: var(--black);
-  background-color: transparent;
 }
 
 .site-nav {
@@ -54,7 +50,7 @@ img {
 
 /* User navigation */
 .site-nav a {
-  color: var(--black);
+ color: inherit;
 }
 
 .site-nav a:focus,
@@ -70,20 +66,19 @@ img {
   color: var(--brown);
 }
 
-.main-tit {
+.main-heading {
   font-size: 21px;
   line-height: 26px;
   text-align: center;
 }
 
 /*main*/
-.image {
-  background-image: url("background-welcome.jpg");
+.hero {
   background-color: var(--black);
+  background-image: url("background-welcome.jpg");
   width: 1200px;
-  height: 509px;
 }
-.cause-list {
+.advantages-list {
   list-style: none;
 }
 
@@ -91,11 +86,12 @@ img {
   list-style: none;
 }
 
-.cause h2 {
+.advantages h2 {
   color: var(--brown-exstra-dark);
   font-weight: normal;
   text-align: center;
 }
+
 .interest {
   font-size: 30px;
   line-height: 24px;
@@ -110,7 +106,7 @@ img {
 }
 
 /*Footer*/
-.social-link {
+.social-list {
   list-style: none;
 }
 
@@ -122,7 +118,7 @@ img {
   text-align: center;
 }
 
-.social-link a {
+.social-list a {
   color: var(--black);
 }
 
@@ -140,13 +136,13 @@ img {
 
 /*User link-footer
 
-.social span:hover,
-.social span:focus,
+.social-link span:hover,
+.social-link span:focus,
 .tel a:focus
 {
 color:var(--middle-blue)
 }
-.social span:active,
+.social-link span:active,
 {
   color:var(--exstra-dark-blue)
 }
@@ -165,8 +161,7 @@ visibility: hidden;
   font-size: 21px;
 }
 
-.catalog-category,
-.catalog-price {
+.catalog-category-price{
   font-weight: normal;
   line-height: 21px;
   color: var(--brown-exstra-dark);
@@ -176,8 +171,6 @@ visibility: hidden;
   color: var(--white);
   font-size: 14px;
   line-height: 21px;
-  width: 110px;
-  height: 27px;
 }
 
 .rating {
@@ -185,8 +178,6 @@ visibility: hidden;
   background-color: var(--light-grey);
   font-size: 14px;
   line-height: 21px;
-  width: 110px;
-  height: 27px;
   text-align: center;
 }
 
@@ -199,7 +190,7 @@ visibility: hidden;
 
 }
 
-.item-list-hotels {
+.hotel-title-link {
   color: var(--black);
   font-size: 21px;
   line-height: 26px;
@@ -227,12 +218,12 @@ visibility: hidden;
 
 /*User link */
 
-.item-list-hotels:hover,
-.item-list-hotels:focus {
+.hotel-title-link:hover,
+.hotel-title-link:focus {
   color: var(--blue);
 }
 
-.item-list-hotels:active {
+.hotel-title-link:active {
   color: var(--black);
 }
 /*Search*/

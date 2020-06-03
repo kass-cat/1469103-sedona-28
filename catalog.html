@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="page" lang="ru">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <title>Catalog</title>
@@ -7,8 +7,8 @@
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
-<body class="page-body">
-<header class="main-header">
+<body>
+<header class="header">
   <nav class="main-nav-container">
     <ul class="site-nav">
       <li><a href="blank.html">Информация</a></li>
@@ -16,7 +16,7 @@
       <li><a href="blank.html">Карта штата</a></li>
       <li><a>Гостиницы</a></li>
     </ul>
-    <a class="main-header-logo" class="main-header-logo" href="index.html">
+    <a class="main-header-logo" href="index.html">
       <img src="img/logo-sedona.svg" width="138" height="70" alt="Перейти на главную страницу.">
     </a>
   </nav>
@@ -85,15 +85,15 @@
     <h2 class="visually-hidden">Список гостиниц</h2>
     <ol class="hotel-items">
       <li>
-        <article class="hotel-amara">
+        <article class="hotel">
           <h3>
-            <a class="item-list-hotels" href="#">Amara resort&spa</a>
+            <a class="hotel-title-link" href="#">Amara resort&spa</a>
           </h3>
           <a href="#">
             <img src="img/amara-resort-spa.jpg" width="135" height="90" alt=" Гостиница Amara resort&spa.">
           </a>
-          <span class="catalog-category"> Гостиница</span>
-          <span class="catalog-price">от 4000 р.</span>
+          <span class="catalog-category-price"> Гостиница</span>
+          <span class="catalog-category-price">от 4000 р.</span>
           <a class="detail" href="#">
             <div class="button">Подробнее</div>
           </a>
@@ -104,15 +104,15 @@
         </article>
       </li>
       <li>
-        <article class="hotel-desert">
+        <article class="hotel">
           <h3>
-            <a class="item-list-hotels" href="#">Desert Quail Inn</a>
+            <a class="hotel-title-link" href="#">Desert Quail Inn</a>
           </h3>
           <a href="#">
             <img src="img/desert-quail-inn.jpg" width="135" height="90" alt=" Мотель Desert Quail Inn.">
           </a>
-          <span class="catalog-category"> Мотель</span>
-          <span class="catalog-price">от 3000 р.</span>
+          <span class="catalog-category-price"> Мотель</span>
+          <span class="catalog-category-price">от 3000 р.</span>
           <a class="detail" href="#">
             <div class="button">Подробнее</div>
           </a>
@@ -123,15 +123,15 @@
         </article>
       </li>
       <li>
-        <article class="hotel-villas">
+        <article class="hotel">
           <h3>
-            <a class="item-list-hotels" href="#">Villas at Poco Diablo</a>
+            <a class="hotel-title-link" href="#">Villas at Poco Diablo</a>
           </h3>
           <a href="#">
             <img src="img/villas-at-poco-diablo.jpg" width="135" height="90" alt=" Апартаменты Villas at Poco Diablo.">
           </a>
-          <span class="catalog-category"> Апартаменты</span>
-          <span class="catalog-price">от 3000 р.</span>
+          <span class="catalog-category-price"> Апартаменты</span>
+          <span class="catalog-category-price">от 3000 р.</span>
           <a class="detail" href="#">
             <div class="button">Подробнее</div>
           </a>
@@ -149,25 +149,25 @@
   <a class="tel" href="tel:+74956660166">
     <span class="tel">+7(495)666-01-66</span>
   </a>
-  <ul class="social-link">
+  <ul class="social-list">
     <li>
-      <a class="social" href="#">
+      <a class="social-link" href="#">
         <span class="visually-hidden">twitter</span>
       </a>
     </li>
     <li>
-      <a class="social" href="#">
+      <a class="social-link" href="#">
         <span class="visually-hidden">facebook</span>
       </a>
     </li>
     <li>
-      <a class="social" href="#">
+      <a class="social-link" href="#">
         <span class="visually-hidden">youtube</span>
       </a>
     </li>
   </ul>
+  <span class="website">Website by</span>
   <a class="img-logo" href="https://htmlacademy.ru/intensive/htmlcss">
-    <span class="website">Website by</span>
     <img src="img/logo-htmlacademy.svg" width="114" height="40" alt="Логотип htmlacademy.">
   </a>
 </footer>
