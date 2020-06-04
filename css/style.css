@@ -43,14 +43,17 @@ img {
   color: var(--black);
 }
 
-.site-nav {
+.reset-list {
   list-style: none;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 /* User navigation */
 .site-nav a {
- color: inherit;
+  color: inherit;
+  font-weight: bold;
 }
 
 .site-nav a:focus,
@@ -70,52 +73,46 @@ img {
   font-size: 21px;
   line-height: 26px;
   text-align: center;
+  font-weight: bold;
 }
 
 /*main*/
 .hero {
   background-color: var(--black);
-  background-image: url("background-welcome.jpg");
+  background-image: url("../img/background-welcome.jpg");
   width: 1200px;
-}
-.advantages-list {
-  list-style: none;
-}
-
-.site-nav {
-  list-style: none;
 }
 
 .advantages h2 {
   color: var(--brown-exstra-dark);
-  font-weight: normal;
   text-align: center;
 }
 
-.interest {
+.search-title {
   font-size: 30px;
   line-height: 24px;
   text-align: center;
+  font-weight: bold;
 }
 
-.travel-dates {
+.search-description {
   color: var(--brown-exstra-dark);
-  font-weight: normal;
   line-height: 24px;
   text-align: center;
 }
 
 /*Footer*/
-.social-list {
-  list-style: none;
-}
 
-.hashtag,
-.tel {
+.page-footer {
   font-size: 21px;
   line-height: 26px;
   color: var(--black);
   text-align: center;
+  font-weight: bold;
+}
+.tel
+{
+  color: var(--black);
 }
 
 .social-list a {
@@ -128,10 +125,9 @@ img {
 
 .website {
   color: var(--black);
-  font-size: 14px;
   line-height: 26px;
   font-weight: normal;
-  text-align: center;
+  font-size: 14px;
 }
 
 /*User link-footer
@@ -148,71 +144,71 @@ color:var(--middle-blue)
 }
 */
 /*Catalog*/
-.visually-hidden
-{
-visibility: hidden;
-}
-.hotel-items {
-  list-style: none;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .hotel-items a {
   color: var(--black);
   font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
 }
 
-.catalog-category-price{
-  font-weight: normal;
-  line-height: 21px;
+.catalog-category-price {
   color: var(--brown-exstra-dark);
 }
 
-.button {
+.button-hotel {
   color: var(--white);
-  font-size: 14px;
-  line-height: 21px;
+  font-weight: bold;
 }
 
 .rating {
   color: var(--brown-grey);
   background-color: var(--light-grey);
-  font-size: 14px;
-  line-height: 21px;
   text-align: center;
 }
 
-.detail div {
+.detail-button {
   background-color: var(--blue);
 }
 
-.book div {
+.book-button {
   background-color: var(--brown);
 
 }
 
 .hotel-title-link {
   color: var(--black);
-  font-size: 21px;
-  line-height: 26px;
 }
 
 /*User link class button*/
 
-.detail div:focus,
-.detail div:hover {
+.detail-button:focus,
+.detail-button:hover {
   background-color: var(--blue-middle);
 }
 
-.book div:focus,
-.book div:hover {
+.book-button:focus,
+.book-button:hover {
   background-color: var(--brown-middle);
 }
 
-.detail div:active {
+.detail-button:active {
   background-color: var(--blue-exstra-dark);
 }
 
-.book div:active {
+.book-button:active {
   background-color: var(--brown-dark);
 }
 
@@ -225,9 +221,4 @@ visibility: hidden;
 
 .hotel-title-link:active {
   color: var(--black);
-}
-/*Search*/
-.search
-{
-  display: none;
 }

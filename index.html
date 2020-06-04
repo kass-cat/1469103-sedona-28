@@ -8,10 +8,11 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<div class="container">
 <header class="header">
   <nav class="main-nav-container">
     <div class="nav-list-logo">
-    <ul class="site-nav">
+    <ul class="reset-list site-nav">
       <li><a href="blank.html">Информация</a></li>
       <li><a href="blank.html">Фото и видео</a></li>
       <li><a href="blank.html">Карта штата</a></li>
@@ -23,7 +24,7 @@
     </div>
   </nav>
 </header>
-<main class="container">
+<main>
   <div class="hero">
     <img src="img/welcome.svg" width="457" height="351"
          alt="Добро пожаловать в великолепную Седону.">
@@ -33,7 +34,7 @@
   </div>
   <section class="advantages">
     <h2>Рассмотрим 5 причин, по которым Седона круче, чем Гранд каньон!</h2>
-    <ul class="advantages-list">
+    <ul class="reset-list advantages-list">
       <li class="advantages-item">
         <div class="advantages-box">
           <h3 class="heading-advantages">Настоящий городок</h3>
@@ -41,7 +42,7 @@
           <p>Седона-не аттракцион для туристов,там течет своя жизнь</p>
         </div>
         <img src="img/view-of-the-house.jpg" width="800" height="256" alt="Вид на одно из зданий Седоны.">
-        <ul class="advantages-inner-list">
+        <ul class="reset-list advantages-inner-list">
           <li class="advantages-inner-item">
             <h4 class="advantages-inner-title">Жильё</h4>
             <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
@@ -81,12 +82,10 @@
       </li>
     </ul>
   </section>
-  <section class="interest-container">
-    <p class="interest">Заинтересовались?</p>
-    <p class="travel-dates">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-  </section>
   <section class="search">
-    <h2>Поиск гостиниц в Седоне</h2>
+    <p class="search-title">Заинтересовались?</p>
+    <p class="search-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+    <button class="button-search" type="submit">Поиск гостиниц в Седоне</button>
     <form action="https://echo.htmlacademy.ru" class="search-form" method="get">
       <label for="arrival">Дата заезда</label>
       <input type="date" id="arrival" name="arrival">
@@ -98,15 +97,13 @@
       <input type="number" id="child" name="child" min="0" step="1">
       <button class="button" type="submit">Найти</button>
     </form>
+    <img alt="Схема проезда." height="594" src="img/map.png" width="1199">
   </section>
-  <img src="img/map.png" width="1199" height="594" alt="Схема проезда.">
 </main>
-<footer class="page-footer">
+  <footer class="page-footer">
   <p class="hashtag">#visitsedona</p>
-  <a class="tel" href="tel:+74956660166">
-    <span class="tel">+7(495)666-01-66</span>
-  </a>
-  <ul class="social-list">
+  <a class="tel" href="tel:+74956660166">+7(495)666-01-66</a>
+  <ul class="reset-list social-list">
     <li>
       <a class="social-link" href="#">
         <span class="visually-hidden">twitter</span>
@@ -127,6 +124,7 @@
   <a class="img-logo" href="https://htmlacademy.ru/intensive/htmlcss">
     <img src="img/logo-htmlacademy.svg" width="114" height="40" alt="Логотип htmlacademy.">
   </a>
-</footer>
+  </footer>
+</div>
 </body>
 </html>
