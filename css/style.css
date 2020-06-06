@@ -44,11 +44,11 @@ img {
 .main-nav-container {
   line-height: 26px;
   color: var(--black);
+  text-align: center;
 }
 
 .reset-list {
   list-style: none;
-  text-align: center;
   margin: 0;
   padding: 0;
 }
@@ -94,6 +94,10 @@ img {
   font-weight: normal;
 }
 
+.advantages-inner-list {
+  text-align: center;
+}
+
 .advantages-box {
   color: var(--white);
   background-color: var(--blue);
@@ -108,6 +112,7 @@ img {
 
 .advantages-item-box {
   background-color: var(--brown-grey-light);
+  text-align: center;
 }
 
 .advantages-content {
@@ -143,6 +148,7 @@ img {
 .search-form {
   line-height: 26px;
   font-weight: bold;
+  text-align: center;
 }
 
 /*Footer*/
