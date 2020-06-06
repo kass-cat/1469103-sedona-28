@@ -13,8 +13,8 @@
   --brown-dark: #503E33;
   --brown-exstra-dark: #333333;
   --black: #000000;
-  --backgroung-welcome:#7aa2c8;
-  --background-catalog:#6d757e;
+  --backgroung-welcome: #7aa2c8;
+  --background-catalog: #6d757e;
 }
 
 /* Global */
@@ -201,7 +201,7 @@ color:var(--middle-blue)
   overflow: hidden;
 }
 
-.hotel-items a {
+.hotel-title-link {
   color: var(--black);
   font-size: 21px;
   line-height: 26px;
@@ -284,25 +284,34 @@ color:var(--middle-blue)
   font-size: 21px;
   line-height: 26px;
 }
-.sorting h2{
+
+.sorting h2 {
   font-size: 12px;
   line-height: 18px;
   font-weight: normal;
 }
-.link-sorting{
+
+.link-sorting {
   font-size: 12px;
   line-height: 18px;
   color: var(--black);
   text-decoration: underline;
   text-decoration-style: dotted;
 }
+
 /*user sorting*/
-.link-sorting:focus,
-.link-sorting:focus{
+
+.link-sorting:hover {
   color: var(--blue);
 }
-.link-sorting:active{
+
+.link-sorting:active {
   color: var(--blue);
+  text-decoration: none;
+}
+
+.link-sorting:focus {
+  color: var(--black);
   text-decoration: none;
 }
 
