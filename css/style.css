@@ -3,6 +3,7 @@
   --white: #FFFFFF;
   --light-grey: #F2F2F2;
   --grey: #888888;
+  --brown-grey-light: #EEEEEE;
   --brown-grey: #666666;
   --blue: #81B3D2;
   --blue-middle: #669EC0;
@@ -12,6 +13,8 @@
   --brown-dark: #503E33;
   --brown-exstra-dark: #333333;
   --black: #000000;
+  --backgroung-welcome:#7aa2c8;
+  --background-catalog:#6d757e;
 }
 
 /* Global */
@@ -69,6 +72,13 @@ img {
   color: var(--brown);
 }
 
+/*main*/
+.hero {
+  background-color: var(--backgroung-welcome);
+  background-image: url("../img/background-welcome.jpg");
+  width: 1200px;
+}
+
 .main-heading {
   font-size: 21px;
   line-height: 26px;
@@ -76,16 +86,32 @@ img {
   font-weight: bold;
 }
 
-/*main*/
-.hero {
-  background-color: var(--black);
-  background-image: url("../img/background-welcome.jpg");
-  width: 1200px;
-}
-
-.advantages h2 {
+/*section advantages*/
+.main-heading-advantages {
+  line-height: 26px;
   color: var(--brown-exstra-dark);
   text-align: center;
+  font-weight: normal;
+}
+
+.advantages-box {
+  color: var(--white);
+  background-color: var(--blue);
+  text-align: center;
+}
+
+.heading-advantages,
+.advantages-inner-title {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.advantages-item-box {
+  background-color: var(--brown-grey-light);
+}
+
+.advantages-content {
+  color: var(--brown-exstra-dark);
 }
 
 .search-title {
@@ -101,6 +127,24 @@ img {
   text-align: center;
 }
 
+.button-search {
+  color: var(--white);
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  background-color: var(--brown);
+}
+
+.button-find {
+  background-color: var(--blue);
+}
+
+.search-form {
+  line-height: 26px;
+  font-weight: bold;
+}
+
 /*Footer*/
 
 .page-footer {
@@ -110,8 +154,8 @@ img {
   text-align: center;
   font-weight: bold;
 }
-.tel
-{
+
+.tel {
   color: var(--black);
 }
 
@@ -222,3 +266,43 @@ color:var(--middle-blue)
 .hotel-title-link:active {
   color: var(--black);
 }
+
+/*catalog filter*/
+.filter-form {
+  background-color: var(--background-catalog);
+  background-image: url("../img/background.jpg");
+  color: var(--white);
+}
+
+.filter-form legend {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.found {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+}
+.sorting h2{
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+}
+.link-sorting{
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--black);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+/*user sorting*/
+.link-sorting:focus,
+.link-sorting:focus{
+  color: var(--blue);
+}
+.link-sorting:active{
+  color: var(--blue);
+  text-decoration: none;
+}
+
