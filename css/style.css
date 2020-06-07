@@ -145,6 +145,16 @@ img {
   background-color: var(--blue);
 }
 
+/* User button-find*/
+.button-find:hover {
+  background-color: var(--blue-middle);
+}
+
+.button-find:active {
+  background-color: var(--blue-exstra-dark);
+}
+
+
 .search-form {
   line-height: 26px;
   font-weight: bold;
