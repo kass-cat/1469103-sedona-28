@@ -40,6 +40,18 @@ img {
   height: auto;
 }
 
+/*Grid*/
+.page {
+  height: 100%;
+}
+
+.container {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+}
+
 /* Main navigation */
 .main-nav-container {
   line-height: 26px;
@@ -52,6 +64,26 @@ img {
   margin: 0;
   padding: 0;
 }
+
+.nav-list-logo {
+  display: grid;
+  outline: 5px solid rgba(255, 0, 0, 0.7);
+  outline-offset: -5px;
+}
+
+.site-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  outline: 5px solid rgba(0, 55, 0, 0.7);
+  outline-offset: -5px;
+}
+
+.main-header-logo {
+  outline: 5px solid rgba(0, 0, 555, 0.7);
+  outline-offset: -5px;
+}
+
 
 /* User navigation */
 .site-nav a {
@@ -74,9 +106,14 @@ img {
 
 /*main*/
 .hero {
+  display: flex;
+  justify-content: center;
   background-color: var(--backgroung-welcome);
   background-image: url("../img/background-welcome.jpg");
+  outline: 5px solid rgba(0, 255, 255, 0.7);
+  outline-offset: -5px;
   width: 1200px;
+  min-height: 509px;
 }
 
 .main-heading {
@@ -104,7 +141,7 @@ img {
   text-align: center;
 }
 
-.heading-advantages,
+.advantages-heading,
 .advantages-inner-title {
   font-size: 21px;
   font-weight: bold;
@@ -163,12 +200,37 @@ img {
 
 /*Footer*/
 
+.footer-contact {
+  outline: 5px solid rgba(0, 255, 255, 0.7);
+  outline-offset: -5px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: center;
+  outline: 5px solid rgba(0, 100, 255, 0.7);
+  outline-offset: -5px;
+}
+
+.website-wrap {
+  display: flex;
+  align-items: center;
+  outline: 5px solid rgba(78, 66, 245, 0.7);
+  outline-offset: -5px;
+}
+
 .page-footer {
   font-size: 21px;
   line-height: 26px;
   color: var(--black);
   text-align: center;
   font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  outline: 5px solid rgba(255, 0, 0, 0.7);
+  outline-offset: -5px;
 }
 
 .tel {
@@ -190,20 +252,42 @@ img {
   font-size: 14px;
 }
 
+.social-link {
+  background-color: var(--blue);
+}
+
 /*User link-footer
 
-.social-link span:hover,
-.social-link span:focus,
+.social-link:hover,
+.social-link:focus,
 .tel a:focus
 {
-color:var(--middle-blue)
+ backgroung-color:var(--middle-blue)
 }
-.social-link span:active,
+.social-link:active,
+.tel a:active
 {
-  color:var(--exstra-dark-blue)
+  background-color:var(--exstra-dark-blue)
 }
 */
 /*Catalog*/
+/*Catalog section hotel-list*/
+.hotel-list {
+  display: flex;
+
+  outline: 5px solid rgba(255, 0, 0, 0.7);
+  outline-offset: -5px;
+}
+
+.hotel {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  outline: 5px solid rgba(255, 555, 0, 0.7);
+  outline-offset: -5px;
+}
+
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -330,4 +414,5 @@ color:var(--middle-blue)
   color: var(--black);
   text-decoration: none;
 }
+
 
