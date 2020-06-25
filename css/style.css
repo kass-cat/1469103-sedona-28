@@ -16,7 +16,7 @@
   --black: #000000;
   --backgroung-welcome: #7aa2c8;
   --background-catalog: #6d757e;
-  --backgroung-toggle: #ABABAB;
+  --backgroung-toggle: #ababab;
   --backgroung-controls: 255, 255, 255, 0.3;
 }
 
@@ -145,7 +145,7 @@ img {
   margin-top: 42px;
   margin-bottom: 43px;
   align-items: center;
-  padding: 0 365px 0 365px;
+  padding: 0 365px;
 }
 
 .main-heading h1 {
@@ -305,12 +305,6 @@ img {
   align-items: center;
 }
 
-.footer-contact {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
 .social-list a {
   width: 46px;
   height: 48px;
@@ -328,24 +322,21 @@ img {
 }
 
 .social-list li {
-  display: flex;
   margin-right: 6px;
 }
 
 .website-wrap {
   display: flex;
-  justify-content: center;
   align-items: center;
   /* margin-right: */
 }
 
 .tel {
   color: var(--black);
-  display: flex;
 }
 
 .hashtag {
-  display: flex;
+  text-align: center;
   margin-bottom: 9px;
 }
 
@@ -376,19 +367,16 @@ img {
 */
 /*Catalog*/
 /*Catalog section hotel-list*/
-.hotel-list {
-  display: flex;
-}
 
 .hotel {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
 }
 
 .hotel-item {
-  border-top: 1px solid;
-  border-color: var(--border);
+  border-top: 1px solid var(--border);
   padding-right: 73px;
   padding-top: 24px;
   padding-left: 73px;
@@ -396,8 +384,7 @@ img {
 }
 
 .hotel-item:last-child {
-  border-bottom: 1px solid;
-  border-color: var(--border);
+  border-bottom: 1px solid var(--border);
 }
 
 .hotel-title-link {
@@ -407,11 +394,11 @@ img {
   font-weight: bold;
 }
 
-.catalog-category-price {
+.hotel-tag {
   color: var(--brown-exstra-dark);
 }
 
-.catalog-category-price:first-child {
+.hotel-tag:first-child {
   margin-right: 38px;
 }
 
@@ -452,7 +439,7 @@ img {
   margin: 0 0 0 7px;
 }
 
-.hotel-category {
+.hotel-tags {
   margin-bottom: 18px;
 }
 
@@ -514,7 +501,7 @@ img {
   background-color: var(--white);
 }
 
-.range-controls .toggle {
+.toggle {
   position: absolute;
   top: 0;
   left: 0;
@@ -530,11 +517,11 @@ img {
   transform: translateY(-50%);
 }
 
-.range-controls .toggle-min {
+.toggle-min {
   left: 0px;
 }
 
-.range-controls .toggle-max {
+.toggle-max {
   left: 233px;
 }
 
