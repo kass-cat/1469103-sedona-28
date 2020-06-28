@@ -165,14 +165,49 @@ img {
   margin-top: 0;
 }
 
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantages-item:nth-child(3) {
+  padding: 47px 96px 54px 96px;
+}
+
+.advantages-item:nth-child(4) {
+  padding: 47px 71px 54px 71px;
+}
+
+.advantages-item:nth-child(5) {
+  padding: 47px 77px 54px 77px;
+}
+
+.advantages-item:first-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.advantages-item:nth-child(2) {
+  display: flex;
+}
+
 .advantages-inner-list {
   text-align: center;
+  display: flex;
 }
 
 .advantages-box {
   color: var(--white);
   background-color: var(--blue);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.advantages-box img {
+  display: flex;
 }
 
 .advantages-heading,
@@ -184,6 +219,9 @@ img {
 .advantages-item-box {
   background-color: var(--brown-grey-light);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .advantages-content {
@@ -487,6 +525,7 @@ img {
   height: 2px;
   background-color: rgba(var(--backgroung-controls));
   margin-top: 20px;
+
 }
 
 .range-controls .scale {
@@ -528,12 +567,17 @@ img {
 .price-controls {
   border: 2px solid var(--white);
   border-radius: 2px;
+  margin-top: 11px;
+  margin-bottom: 20px;
 }
 
 .filter-form {
   background-color: var(--background-catalog);
   background-image: url("../img/background.jpg");
   color: var(--white);
+  display: flex;
+  padding: 26px 73px 32px 72px;
+  justify-content: space-between;
 }
 
 .filter-form legend {
@@ -545,16 +589,67 @@ img {
   border: 0;
 }
 
+.infrastructure legend {
+  margin-bottom: 24px;
+}
+
+.type-of-housing legend {
+  margin-bottom: 24px;
+}
+
+.infrastructure-list li {
+  margin-bottom: 25px;
+}
+
+.infrastructure-list li:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.type-of-housing-list li {
+  margin-bottom: 25px;
+}
+
+.type-of-housing-list li:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.button-filter {
+  padding: 7px 35px 8px 36px;
+  border: 2px solid var(--white);
+  border-radius: 2px;
+  margin-top: 33px;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .found {
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
+  margin-right: 46px;
+}
+
+.sorting {
+  display: flex;
+  padding: 29px 73px 31px 73px;
+  align-items: center;
+}
+
+.sorting-list {
+  display: flex;
+}
+
+.sorting-list li {
+  margin-right: 32px;
 }
 
 .sorting h2 {
   font-size: 12px;
   line-height: 18px;
   font-weight: normal;
+  margin-right: 40px;
 }
 
 .link-sorting {

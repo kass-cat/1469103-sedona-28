@@ -28,9 +28,9 @@
     <section class="hotels">
       <h1 class="visually-hidden">Гостиницы</h1>
       <form action="https://echo.htmlacademy.ru" class="filter-form" method="get">
-        <fieldset>
+        <fieldset class="infrastructure">
           <legend>Инфраструктура:</legend>
-          <ul class="reset-list">
+          <ul class="reset-list infrastructure-list">
             <li>
               <input id="pool" name="pool" type="checkbox">
               <label for="pool">Бассейн</label>
@@ -45,9 +45,9 @@
             </li>
           </ul>
         </fieldset>
-        <fieldset>
+        <fieldset class="type-of-housing">
           <legend>Тип жилья:</legend>
-          <ul class="reset-list">
+          <ul class="reset-list type-of-housing-list">
             <li>
               <input id="hotel" name="hotel" type="checkbox">
               <label for="hotel">Гостиница</label>
@@ -62,7 +62,7 @@
             </li>
           </ul>
         </fieldset>
-        <fieldset>
+        <fieldset class="cost">
           <legend>Стоимость в сутки (Р):</legend>
           <div class="range-filter">
             <div class="price-controls">
@@ -82,14 +82,14 @@
             </div>
           </div>
           <!--  от 0<input id="cost" max="3000" min="0" step="100" type="range"> До 3000-->
+          <button class="button-filter" type="submit">Показать</button>
         </fieldset>
-        <button type="submit">Показать</button>
       </form>
     </section>
     <section class="sorting">
       <span class="found">НАЙДЕНО: 3</span>
       <h2>Сортировка:</h2>
-      <ul class="reset-list">
+      <ul class="reset-list sorting-list">
         <li>
           <a class="link-sorting" href="#">По цене </a>
         </li>
