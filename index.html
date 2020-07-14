@@ -38,7 +38,7 @@
         <li class="advantages-item">
           <div class="advantages-box">
             <h3 class="advantages-heading">Настоящий<br> городок</h3>
-            <p class="number">-№1-</p>
+            <p class="number">— №1 —</p>
             <p class="reset-p">Седона-не аттракцион для туристов,там течёт своя жизнь</p>
           </div>
           <img alt="Вид на одно из зданий Седоны." height="256" src="img/view-of-the-house.jpg" width="800">
@@ -61,37 +61,38 @@
           <img alt="Мост Дьявола." height="256" src="img/bridge-of-the-devil.jpg" width="800">
           <div class="advantages-box">
             <h3 class="advantages-heading">Там есть<br> мост Дьявола</h3>
-            <p class="number">-№2-</p>
+            <p class="number">— №2 —</p>
             <p class="reset-p">Да, по нему можно пройти! Если конечно<br> вы осмелитесь</p>
           </div>
         </li>
         <li class="advantages-item advantages-item-box">
           <h3 class="advantages-heading">Небольшая<br> площадь</h3>
-          <p class="advantages-content number">-№3-</p>
+          <p class="advantages-content number">— №3 —</p>
           <p class="advantages-content reset-p">Все достопримечательности<br> находятся очень близко</p>
         </li>
         <li class="advantages-item advantages-item-box">
           <h3 class="advantages-heading">Красивая<br> дорога</h3>
-          <p class="advantages-content number">-№4-</p>
+          <p class="advantages-content number">— №4 —</p>
           <p class="advantages-content reset-p">Ехать в Седону из Лас-Вегаса совсем<br> не скучно!</p>
         </li>
         <li class="advantages-item advantages-item-box">
           <h3 class="advantages-heading">Мало<br> туристов</h3>
-          <p class="advantages-content number">-№5-</p>
+          <p class="advantages-content number">— №5 —</p>
           <p class="advantages-content reset-p">Большенство едет в Гранд каньон <br>и толпятся там</p>
         </li>
       </ul>
     </section>
     <section class="search">
       <p class="search-title">Заинтересовались?</p>
-      <p class="search-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в
+      <p class="search-description">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения
+        гостиниц в
         Седоне</p>
       <div class="search-wrap">
-        <button class="button-search button-search-hotel" type="button">Поиск гостиниц в Седоне</button>
+        <button class="button-search button-search-hotel" type="button">Поиск гостиницы в Седоне</button>
         <form action="https://echo.htmlacademy.ru" class="search-form" method="get">
           <ul class="search-list reset-list">
             <li class="search-item">
-              <label for="arrival">Дата заезда</label>
+              <label for="arrival">Дата заезда:</label>
               <input id="arrival" name="arrival" type="text" value="24 апреля 2017">
               <div class="wraper-calendar">
                 <button class="calendar" type="button">
@@ -106,7 +107,7 @@
               </div>
             </li>
             <li class="search-item">
-              <label for="departure">Дата выезда</label>
+              <label for="departure">Дата выезда:</label>
               <input id="departure" name="departure" type="text" value="4 июля 2017">
               <div class="wraper-calendar">
                 <button class="calendar" type="button">
@@ -121,36 +122,36 @@
               </div>
             </li>
             <li class="search-item">
-              <label for="adult">Взрослые</label>
-              <button class="button-quantity" type="button">
+              <label for="adult">Взрослые:</label>
+              <button class="button-quantity button-decrease" type="button">
+                <span class="visually-hidden">Уменьшить</span>
+                <svg fill="none" height="3" width="12">
+                  <path d="M0 0h12v3H0z" fill="#A9A9A9"/>
+                </svg>
+              </button>
+              <input id="adult" min="0" name="number" step="1" type="text">
+              <button class="button-quantity button-increase" type="button">
                 <span class="visually-hidden">Увеличить</span>
                 <svg fill="none" height="11" width="11">
                   <path clip-rule="evenodd" d="M4.23 6.77V11h2.54V6.77H11V4.23H6.77V0H4.23v4.23H0v2.54h4.23z"
                         fill="#A9A9A9" fill-rule="evenodd"/>
-                </svg>
-              </button>
-              <input id="adult" min="0" name="number" step="1" type="text">
-              <button class="button-quantity" type="button">
-                <span class="visually-hidden">Уменьшить</span>
-                <svg fill="none" height="3" width="12">
-                  <path d="M0 0h12v3H0z" fill="#A9A9A9"/>
                 </svg>
               </button>
             </li>
             <li class="search-item">
-              <label for="child">Дети</label>
-              <button class="button-quantity" type="button">
-                <span class="visually-hidden">Увеличить</span>
-                <svg fill="none" height="11" width="11">
-                  <path clip-rule="evenodd" d="M4.23 6.77V11h2.54V6.77H11V4.23H6.77V0H4.23v4.23H0v2.54h4.23z"
-                        fill="#A9A9A9" fill-rule="evenodd"/>
+              <label for="child">Дети:</label>
+              <button class="button-quantity button-decrease" type="button">
+                <span class="visually-hidden">Уменьшить</span>
+                <svg fill="none" height="3" width="12">
+                  <path d="M0 0h12v3H0z" fill="#A9A9A9"/>
                 </svg>
               </button>
               <input id="child" min="0" name="child" step="1" type="text">
               <button class="button-quantity" type="button">
-                <span class="visually-hidden">Уменьшить</span>
-                <svg fill="none" height="3" width="12">
-                  <path d="M0 0h12v3H0z" fill="#A9A9A9"/>
+                <span class="visually-hidden button-increase">Увеличить</span>
+                <svg fill="none" height="11" width="11">
+                  <path clip-rule="evenodd" d="M4.23 6.77V11h2.54V6.77H11V4.23H6.77V0H4.23v4.23H0v2.54h4.23z"
+                        fill="#A9A9A9" fill-rule="evenodd"/>
                 </svg>
               </button>
             </li>
