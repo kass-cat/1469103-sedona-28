@@ -94,7 +94,6 @@
             <li class="search-item">
               <label for="arrival">Дата заезда:</label>
               <input id="arrival" name="arrival" type="text" value="24 апреля 2017">
-              <div class="wraper-calendar">
                 <button class="calendar" type="button">
                   <span class="visually-hidden">Открыть календарь</span>
                   <svg height="22" viewBox="0 0 21 22" width="21">
@@ -104,12 +103,10 @@
                       d="M4.594 8.225h2.625v2.066H4.594zM4.594 11.668h2.625v2.067H4.594zM4.594 15.112h2.625v2.066H4.594zM9.188 15.112h2.625v2.066H9.188zM9.188 11.668h2.625v2.067H9.188zM9.188 8.225h2.625v2.066H9.188zM13.781 15.112h2.625v2.066h-2.625zM13.781 11.668h2.625v2.067h-2.625zM13.781 8.225h2.625v2.066h-2.625z"/>
                   </svg>
                 </button>
-              </div>
             </li>
             <li class="search-item">
               <label for="departure">Дата выезда:</label>
               <input id="departure" name="departure" type="text" value="4 июля 2017">
-              <div class="wraper-calendar">
                 <button class="calendar" type="button">
                   <span class="visually-hidden">Открыть календарь</span>
                   <svg height="22" viewBox="0 0 21 22" width="21">
@@ -119,7 +116,6 @@
                       d="M4.594 8.225h2.625v2.066H4.594zM4.594 11.668h2.625v2.067H4.594zM4.594 15.112h2.625v2.066H4.594zM9.188 15.112h2.625v2.066H9.188zM9.188 11.668h2.625v2.067H9.188zM9.188 8.225h2.625v2.066H9.188zM13.781 15.112h2.625v2.066h-2.625zM13.781 11.668h2.625v2.067h-2.625zM13.781 8.225h2.625v2.066h-2.625z"/>
                   </svg>
                 </button>
-              </div>
             </li>
             <li class="search-item">
               <label for="adult">Взрослые:</label>
@@ -129,7 +125,7 @@
                   <path d="M0 0h12v3H0z" fill="#A9A9A9"/>
                 </svg>
               </button>
-              <input id="adult" min="0" name="number" step="1" type="text">
+              <input class="adult" id="adult" min="0" name="number" step="1" type="number" value="2">
               <button class="button-quantity button-increase" type="button">
                 <span class="visually-hidden">Увеличить</span>
                 <svg fill="none" height="11" width="11">
@@ -146,7 +142,7 @@
                   <path d="M0 0h12v3H0z" fill="#A9A9A9"/>
                 </svg>
               </button>
-              <input id="child" min="0" name="child" step="1" type="text">
+              <input class="child" id="child" min="0" name="child" step="1" type="number" value="0">
               <button class="button-quantity" type="button">
                 <span class="visually-hidden button-increase">Увеличить</span>
                 <svg fill="none" height="11" width="11">
